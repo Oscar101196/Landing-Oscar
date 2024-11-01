@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- Vandor -->
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+        <!-- Mio -->
+        <link rel="stylesheet" href="./assets/css/main.css">
+    </head>
+    <body>
+        
+        <header>
+            <!-- Publicidad superior -->
+            <div class="d-flex justify-content-center">
+                <p>3 cuotas sin interes bla bla bla</p>
+            </div>
+            <!---------------------------------- Nav logo y usuario y carrito ---------------------------------------------->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <div class="row w-100 align-items-center" style="background-color: red;">
+                    <div class="col" style="background-color: green;">a</div>
+                    <div class="col-auto" style="background-color: yellow;">
+                      <a class="navbar-brand ms-auto" href="#">Navbar</a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="col-auto navbar-collapse" style="background-color: blue;" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Ingresa/Registrate</a>
+                            </li>
+                            <li class="nav-item">
+<!----------------------------------------------------------------- BOTON Carrito de compras ------------------------------->
+                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                  Carrito
+                                </button>
+  <!-----------------------------------------------------------------CIERRE BOTON Carrito de compras ------------------------------->
+                            </li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+            </nav> 
+            <!---------------------------------------Carrito oculto--------------------------------------->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div>
+                  Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                </div>
+                <div class="dropdown mt-3">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    Dropdown button
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!---------------------------------------CIERRA Carrito oculto--------------------------------------->
+        </header>
+
+        <main>  
+            <!-- Barra navegadore de catalogo -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">    
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item dropdown me-5">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Tienda
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Conjuntos</a></li>
+                          <li><a class="dropdown-item" href="#">Bombachas</a></li>
+                          <li><a class="dropdown-item" href="#">Corpiños</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item me-5">
+                        <a class="nav-link" href="#">Temporada</a>
+                      </li>
+                      <li class="nav-item dropdown me-5">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Marcas
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Kauri</a></li>
+                          <li><a class="dropdown-item" href="#">Channel</a></li>
+                          <li><a class="dropdown-item" href="#">Eagle</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item me-5">
+                        <a class="nav-link" href="#">Quienes somos</a>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+            <!------------------------------------CIERRA Barra navegadore de catalogo ------------------------------------->
+            <!-- Inicio Carrusel -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!-- ------------------Inicia catalogo ------------------------------->
+              <p>Categorias Destacadas</p> <!--Categorias -->
+              <div class="row row-cols-1 row-cols-md-4 g-4">              
+                <div class="col">     <!--  Categoria 1-->
+                  <div class="card h-100">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">  <!--  Categoria 2-->
+                  <div class="card h-100">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col"> <!--  Categoria 3-->
+                  <div class="card h-100">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col"> <!--  Categoria 4-->
+                  <div class="card h-100">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                 <!----------------------------------Cierra catalogo--------------------------------------------------------------------------- -->
+                 <div class="col">     <!-- Productos random -->
+                  <div class="card h-100">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+
+                <!--------------------------- Banner -------------------------------------------------->
+                <img src="..." class="img-fluid" alt="...">
+                <!---------------------------CIERRE Banner -------------------------------------------------->
+              </div>
+              <p>Seguinos en instagram</p>
+        </main>
+        <footer>
+          <div class="row px-3">
+            <div class="col" style="background-color: red;">
+              <a href="#"><img src="#" alt=""></a>
+              <p>Direccion</p>
+              <p>Telefono:</p>
+              <p>Email:</p>
+            </div>
+            <div class="col" style="background-color: blue;" >
+              <img src="" alt="">
+              <p>Recibe nuestras ofertas</p>
+            </div>
+            <div class="col" style="background-color: green;">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8376161867545!2d-58.39439882510282!3d-34.60826747295267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac2fc7de445%3A0x8f8bb81986a172fc!2sNueva%20Escuela%20de%20Dise%C3%B1o%20y%20Comunicaci%C3%B3n!5e0!3m2!1ses-419!2sar!4v1730333325044!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <div class="row px-3">
+            <div class="col">
+              <p>Nosotros</p>
+              <p>
+                Somos una empresa dedicada al comercio electrónico de lencería que se especializa en futuras mamás y talles grandes. En LENCERIAMODA podés encontrar las marcas que más te gustan, las últimas tendencias y las novedades del mundo de la moda para mujer, hombre y niño.
+
+                ¡Comprá rápido, seguro y fácil en LENCERÍAMODA y adquirí los productos desde la comodidad de tu casa!
+              </p>
+            </div>
+            <div class="col">
+              <ul>
+                <li>Quienes somos</li>
+                <li>Como comprar</li>
+                <li>Preguntas frecuentes</li>
+                <li>Cambios y devoluciones</li>
+                <li>Envios</li>
+                <li>Contacto</li>
+              </ul>
+            </div>
+            <div class="col">
+              <p>Mi cuenta</p>
+              <p>Ingresas</p>
+              <p>Carrito</p>
+              
+            </div>
+            <div class="col">
+              <p>Seguinos</p>
+              <p>Logo logo logo</p>
+            </div>
+          </div>
+          <div>
+            <p class=" d-flex justify-content-center">Copyright©  Lencería Moda 2022. Todos los derechos reservados. Desarrollo: Oscar Peñaranda</p>
+          </div>
+          
+        </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <!-- <script src="./assets/js/bootstrap.min.js"></script> -->
+    </body>
+</html>
