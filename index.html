@@ -47,48 +47,49 @@
             <!---------------------------------------Carrito oculto--------------------------------------->
             <div class="offcanvas offcanvas-end" style="width: 37rem;" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
               <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasExampleLabel">CARRITO DE COMPRAS</h5>
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">CARRITO DE COMPRAS</h5> <!--TITULO-->
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
-              <div class="offcanvas-body" style=" background-color: red;"> 
-                <div class="row"> <!--Parte 1-->
+              <div class="offcanvas-body"> 
+                <div class="row"> <!--PRODUCTO 1-->
                   <div class="col-2">
                     <img src="./assets/img/corpinio-siena-verde-110.webp" class=" img-thumbnail img-fluid" style="width: 140px; height: auto;" alt="">
                   </div>
-                  <div class="col-9">
-                    <div class="w-100">
-                      <p>Corpiño Siena Verde Menta (Corpiño con aro) (110)</p>
+                  <div class="col-10">
+                    <div>
+                      <div class="d-flex justify-content-between">
+                        <p>Corpiño Siena Verde Menta (Corpiño con aro) (110)</p>
+                        <button>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-trash3" viewBox="0 0 16 16">
+                            <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5"/>
+                          </svg>
+                        </button>
+                      </div>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group me-2 w-25" role="group" aria-label="Second group">   <!--Botones + - -->
                           <button type="button" class="btn btn-secondary">+</button>
                           <p>1</p>
                           <button type="button" class="btn btn-secondary">-</button>
                         </div>
-                        <div>
+                        <div class="text-end">
                           <p>$10.000000</p>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col-1">
-                    <button>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-trash3" viewBox="0 0 16 16">
-                        <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5"/>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
+                 
+                </div> <!--FINALIZA PRODUCTO 1-->
                 <div> <!--Parte ENVIO GRATIS-->
-                  <p>Estas a $21.000 de envio gratis</p>
-                </div>
-                <div class="row"> <!--Parte 2-->
+                  <p class="text-center">Estas a $21.000 de envio gratis</p>
+                </div><!--FINALIZA Parte ENVIO GRATIS-->
+                <div class="row d-flex justify-content-between"> <!--SUBTOTAL-->
                   <div class="col-6">
                     <p>Subtotal (sin envio): </p>
                   </div>
-                  <div class="col-6">
+                  <div class="col-6 text-end">
                     <p>$48.999</p>
                   </div>
-                </div>
+                </div><!--FINALIZA SUBTOTAL-->
                 <div> <!--PARTE 3 Envio y Locales-->
                   <div class="accordion" id="accordionPanelsStayOpenExample">
                     <div class="accordion-item">
@@ -117,11 +118,18 @@
                     </div>
                   </div>
                 </div><!--FINALIZA PARTE 3 Envio y Locales-->
-                <div><!--TOTAL-->
-
+                <div class="row d-flex justify-content-between"><!--TOTAL-->
+                  <div class="col-6"> <!--Totaal Precio final-->
+                    <p>Total:</p>
+                  </div>
+                  <div class="col-6 text-end"><p>$48.299</p></div>
+                </div> <!--FINALIZA TOTAL-->
+                <div class="d-flex justify-content-center"> <!--Botones de finalizar compra y seguir comprando-->
+                  <div>
+                    <button class="btn btn-primary" type="button">INICIAR COMPRA</button>
+                    <p class="text-center" data-bs-dismiss="offcanvas">Ver más productos</p>
+                  </div>
                 </div>
-
-                  
               </div>
             </div>
             <!---------------------------------------CIERRA Carrito oculto--------------------------------------->
