@@ -67,12 +67,12 @@
                       </div>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group me-2 w-25" role="group" aria-label="Second group">   <!--Botones + - -->
-                          <button type="button" class="btn btn-secondary">+</button>
-                          <p>1</p>
-                          <button type="button" class="btn btn-secondary">-</button>
+                          <button type="button" id="btn--" class="btn btn-secondary">-</button>
+                          <p id="cantidad">1</p>
+                          <button type="button"  id="btn-+" class="btn btn-secondary">+</button>
                         </div>
                         <div class="text-end">
-                          <p>$10.000000</p>
+                          <p>$ <span id="precio-carrito">10.000000</span></p>
                         </div>
                       </div>
                     </div>
@@ -248,7 +248,7 @@
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      <p class="card-text">$</p>
                     </div>
                     <div class="card-footer">
                       <small class="text-body-secondary">Last updated 3 mins ago</small>
@@ -256,54 +256,51 @@
                   </div>
                 </div>
                  <!----------------------------------Cierra catalogo--------------------------------------------------------------------------- -->
-                 <div class="col">     <!-- Productos random -->
+                 <figure class="col">     <!-- Productos random -->
                   <div class="card h-100">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      <figcaption class="card-title">Conjunto Siena Negro (Corpiño con aro & Bombacha Less)</figcaption>
+                      <p>$48.299</p>
+                      <p>10% de descuento con Transferencia bancaria</p>
+                      <button>Comprar</button>
                     </div>
-                    <div class="card-footer">
-                      <small class="text-body-secondary">Last updated 3 mins ago</small>
-                    </div>
+                    
                   </div>
-                </div>
-                <div class="col">
+                 </figure>
+                <figure class="col">
                   <div class="card h-100">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                      <figcaption class="card-title">Conjunto Linda Negro (Corpiño Sin aro & Bombacha Less)</figcaption>
+                      <p>$45.999</p>
+                      <p>10% de descuento con Transferencia bancaria</p>
+                      <button>Comprar</button>
                     </div>
                   </div>
-                </div>
-                <div class="col">
+                </figure>
+                <figure class="col">
                   <div class="card h-100">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-body-secondary">Last updated 3 mins ago</small>
-                    </div>
+                      <figcaption class="card-title">Conjunto Allegra Blanco(Corpiño con aro & Bombacha Less)</figcaption>
+                      <p>$51.999</p>
+                      <p>10% de descuento con Transferencia bancaria</p>
+                      <button>Comprar</button>
+                    </div>      
                   </div>
-                </div>
-                <div class="col">
+                </figure>
+                <figure class="col">
                   <div class="card h-100">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-body-secondary">Last updated 3 mins ago</small>
-                    </div>
+                      <figcaption class="card-title">Conjunto Allegra Negro(Corpiño con aro & Bombacha Less)</figcaption>
+                      <p>$51.999</p>
+                      <p>10% de descuento con Transferencia bancaria</p>
+                      <button>Comprar</button>
+                    </div>                   
                   </div>
-                </div>
+                </figure>
 
                 <!--------------------------- Banner -------------------------------------------------->
                 <img src="..." class="img-fluid" alt="...">
@@ -362,8 +359,10 @@
           </div>
           
         </footer>
-        <p>prueba</p>
+        <!--VANDOR-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <!--MIO-->
+        <script src="./assets/js/script.js"></script>
         <!-- <script src="./assets/js/bootstrap.min.js"></script> -->
     </body>
 </html>
