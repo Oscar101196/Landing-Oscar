@@ -42,10 +42,10 @@ fetch('productos.json')
             productoElemento.innerHTML = 
             `
             <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="${element.imagenes[0]}" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <figcaption class="card-title">${date.nombre}</figcaption>
-                    <p>$${date.precio}</p>
+                    <figcaption class="card-title">${element.nombre}</figcaption>
+                    <p>$${element.precio}</p>
                     <p>10% de descuento con Transferencia bancaria</p>
                     <button class="agregar-Carrito">Comprar</button>
                 </div>

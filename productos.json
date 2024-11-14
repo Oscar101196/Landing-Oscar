@@ -1,12 +1,13 @@
 [
     {
         "id": 1,
-        "nombre": "Corpiño con aro",
+        "nombre": "Conjunto Allegra Negro (Corpiño con aro & Bombacha Less)",
         "descripcion": "Bla bl abla",
         "precio": 1500,
         "categoria": "Ropaa interior",
         "imagenes": [
-        
+            "./assets/img/Conjunto Allegra Negro (Corpiño con aro & Bombacha Less)/tsm-sept-01-23310011-cfb14afef7cfa9feba16935108071060-1024-1024.webp",
+            "./assets/img/Conjunto Allegra Negro (Corpiño con aro & Bombacha Less)/tsm-sept-01-23311311-5fc130cbbb09847a0816935108072802-1024-1024.webp"
         ],
         "variantes": [
             {
@@ -67,12 +68,14 @@
     },
     {
         "id": 2,
-        "nombre": "Corpiño sin aro",
+        "nombre": "Conjunto Capri Natural (Corpiño con aro & Bombacha Less)",
         "descripcion": "Bla bl abla",
         "precio": 3500,
         "categoria": "Ropaa interior",
         "imagenes": [
-        
+            "./assets/img/Conjunto Capri Natural (Corpiño con aro & Bombacha Less)/mesa-de-trabajo-2-ea133deffc1308781917195127504273-1024-1024.webp",
+            "./assets/img/Conjunto Capri Natural (Corpiño con aro & Bombacha Less)/deb29f23-3dd0-4df7-95c3-a348671eaefa1-52a0a1cfe1d89b147516176511839832-1024-1024.webp"
+            
         ],
         "variantes": [
             {
@@ -133,12 +136,13 @@
     },
     {
         "id": 3,
-        "nombre": "Bombacha",
+        "nombre": "Conjunto Capri Negro (Corpiño con aro & Bombacha Less)",
         "descripcion": "Bla bl abla",
         "precio": 2500,
         "categoria": "Ropaa interior",
         "imagenes": [
-        
+            "./assets/img/Conjunto Capri Negro (Corpiño con aro & Bombacha Less)/tsm-nov01-22283871-aca7cfd956bae4517816842540436981-1024-1024.webp",
+            "./assets/img/Conjunto Capri Negro (Corpiño con aro & Bombacha Less)/tsm-nov01-22284251-19d42f3ff3435bcb9c16842540440243-1024-1024.webp"
         ],
         "variantes": [
             {
@@ -199,78 +203,14 @@
     },
     {
         "id": 4,
-        "nombre": "Conjunto",
+        "nombre": "Conjunto Siena Natural (Corpiño con aro & Bombacha Less)",
         "descripcion": "Bla bl abla",
         "precio": 6500,
         "categoria": "Ropaa interior",
         "imagenes": [
-        
-        ],
-        "variantes": [
-            {
-                "talle": "1",
-                "colores": [
-                    {
-                        "color": "Negro",
-                        "stock": 5
-                    },
-                    {
-                        "color": "Blanco",
-                        "stock": 7                
-                    }
-                ]
-            },
-            {
-                "talle": "2",
-                "colores": [
-                    {
-                        "color": "Negro",
-                        "stock": 6
-                    },
-                    {
-                        "color": "Blanco",
-                        "stock": 6
-                    }
-                ]
-            },
-            {
-                "talle": "3",
-                "colores": [
-                    {
-                        "color": "Negro",
-                        "stock": 4
-                    }
-                ]
-            },
-            {
-                "talle": "4",
-                "colores": [
-                    {
-                        "color": "Negro",
-                        "stock": 4
-                    }
-                ]
-            },
-            {
-                "talle": "5",
-                "colores": [
-                    {
-                        "color": "Negro",
-                        "stock": 4
-                    }
-                ]
-            }
-            ],
-        "estado": "disponible"
-    },
-    {
-        "id": 5,
-        "nombre": "Buzos",
-        "descripcion": "Bla bl abla",
-        "precio": 5500,
-        "categoria": "Ropaa interior",
-        "imagenes": [
-        
+            "./assets/img/Conjunto Siena Natural (Corpiño con aro & Bombacha Less)/cabb4c9f-bcda-46ed-b40a-a941e614e0a31-8c3330b8a72d7878f816775997815080-1024-1024.webp",
+            "./assets/img/Conjunto Siena Natural (Corpiño con aro & Bombacha Less)/59d54a03-cc2e-4785-9749-d20d1308b2f61-b40229e896d8003fc816775997815948-1024-1024.webp"
+            
         ],
         "variantes": [
             {
@@ -329,4 +269,5 @@
             ],
         "estado": "disponible"
     }
+    
   ]
