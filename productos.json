@@ -268,6 +268,142 @@
             }
             ],
         "estado": "disponible"
+    },
+    {
+        "id": 5,
+        "nombre": "FORTALEZA Corpiño Top Flores con Negro",
+        "descripcion": "Bla bl abla",
+        "precio": 9500,
+        "categoria": "Ropaa interior",
+        "imagenes": [
+            "./assets/img/FORTALEZA Corpiño Top Flores con Negro/bombacha-bahia-2-627348bc9168e1728617302104557589-1024-1024.webp",
+            "./assets/img/FORTALEZA Corpiño Top Flores con Negro/corp-fortaleza-a00321ecbba127f52517302104650197-1024-1024.webp"
+            
+        ],
+        "variantes": [
+            {
+                "talle": "1",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 5
+                    },
+                    {
+                        "color": "Blanco",
+                        "stock": 7                
+                    }
+                ]
+            },
+            {
+                "talle": "2",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 6
+                    },
+                    {
+                        "color": "Blanco",
+                        "stock": 6
+                    }
+                ]
+            },
+            {
+                "talle": "3",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 4
+                    }
+                ]
+            },
+            {
+                "talle": "4",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 4
+                    }
+                ]
+            },
+            {
+                "talle": "5",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 4
+                    }
+                ]
+            }
+            ],
+        "estado": "disponible"
+    },
+    {
+        "id": 6,
+        "nombre": "Enteriza Floripa Negro ( Aro )",
+        "descripcion": "Bla bl abla",
+        "precio": 6500,
+        "categoria": "Ropaa interior",
+        "imagenes": [
+            "./assets/img/Enteriza Floripa Negro ( Aro )/floripa-e89e8543b954fb51b617301454478949-1024-1024.webp",
+            "./assets/img/Enteriza Floripa Negro ( Aro )/img_7417-049d3adb13fbed08f217011109780875-1024-1024.webp"
+            
+        ],
+        "variantes": [
+            {
+                "talle": "1",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 5
+                    },
+                    {
+                        "color": "Blanco",
+                        "stock": 7                
+                    }
+                ]
+            },
+            {
+                "talle": "2",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 6
+                    },
+                    {
+                        "color": "Blanco",
+                        "stock": 6
+                    }
+                ]
+            },
+            {
+                "talle": "3",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 4
+                    }
+                ]
+            },
+            {
+                "talle": "4",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 4
+                    }
+                ]
+            },
+            {
+                "talle": "5",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 4
+                    }
+                ]
+            }
+            ],
+        "estado": "disponible"
     }
     
   ]
