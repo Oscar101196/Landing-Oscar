@@ -1,0 +1,332 @@
+[
+    {
+        "id": 1,
+        "nombre": "Corpiño con aro",
+        "descripcion": "Bla bl abla",
+        "precio": 1500,
+        "categoria": "Ropaa interior",
+        "imagenes": [
+        
+        ],
+        "variantes": [
+            {
+                "talle": "1",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 5
+                    },
+                    {
+                        "color": "Blanco",
+                        "stock": 7                
+                    }
+                ]
+            },
+            {
+                "talle": "2",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 6
+                    },
+                    {
+                        "color": "Blanco",
+                        "stock": 6
+                    }
+                ]
+            },
+            {
+                "talle": "3",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 4
+                    }
+                ]
+            },
+            {
+                "talle": "4",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 4
+                    }
+                ]
+            },
+            {
+                "talle": "5",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 4
+                    }
+                ]
+            }
+            ],
+        "estado": "disponible"
+    },
+    {
+        "id": 2,
+        "nombre": "Corpiño sin aro",
+        "descripcion": "Bla bl abla",
+        "precio": 3500,
+        "categoria": "Ropaa interior",
+        "imagenes": [
+        
+        ],
+        "variantes": [
+            {
+                "talle": "1",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 5
+                    },
+                    {
+                        "color": "Blanco",
+                        "stock": 7                
+                    }
+                ]
+            },
+            {
+                "talle": "2",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 6
+                    },
+                    {
+                        "color": "Blanco",
+                        "stock": 6
+                    }
+                ]
+            },
+            {
+                "talle": "3",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 4
+                    }
+                ]
+            },
+            {
+                "talle": "4",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 4
+                    }
+                ]
+            },
+            {
+                "talle": "5",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 4
+                    }
+                ]
+            }
+            ],
+        "estado": "disponible"
+    },
+    {
+        "id": 3,
+        "nombre": "Bombacha",
+        "descripcion": "Bla bl abla",
+        "precio": 2500,
+        "categoria": "Ropaa interior",
+        "imagenes": [
+        
+        ],
+        "variantes": [
+            {
+                "talle": "1",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 5
+                    },
+                    {
+                        "color": "Blanco",
+                        "stock": 7                
+                    }
+                ]
+            },
+            {
+                "talle": "2",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 6
+                    },
+                    {
+                        "color": "Blanco",
+                        "stock": 6
+                    }
+                ]
+            },
+            {
+                "talle": "3",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 4
+                    }
+                ]
+            },
+            {
+                "talle": "4",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 4
+                    }
+                ]
+            },
+            {
+                "talle": "5",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 4
+                    }
+                ]
+            }
+            ],
+        "estado": "disponible"
+    },
+    {
+        "id": 4,
+        "nombre": "Conjunto",
+        "descripcion": "Bla bl abla",
+        "precio": 6500,
+        "categoria": "Ropaa interior",
+        "imagenes": [
+        
+        ],
+        "variantes": [
+            {
+                "talle": "1",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 5
+                    },
+                    {
+                        "color": "Blanco",
+                        "stock": 7                
+                    }
+                ]
+            },
+            {
+                "talle": "2",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 6
+                    },
+                    {
+                        "color": "Blanco",
+                        "stock": 6
+                    }
+                ]
+            },
+            {
+                "talle": "3",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 4
+                    }
+                ]
+            },
+            {
+                "talle": "4",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 4
+                    }
+                ]
+            },
+            {
+                "talle": "5",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 4
+                    }
+                ]
+            }
+            ],
+        "estado": "disponible"
+    },
+    {
+        "id": 5,
+        "nombre": "Buzos",
+        "descripcion": "Bla bl abla",
+        "precio": 5500,
+        "categoria": "Ropaa interior",
+        "imagenes": [
+        
+        ],
+        "variantes": [
+            {
+                "talle": "1",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 5
+                    },
+                    {
+                        "color": "Blanco",
+                        "stock": 7                
+                    }
+                ]
+            },
+            {
+                "talle": "2",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 6
+                    },
+                    {
+                        "color": "Blanco",
+                        "stock": 6
+                    }
+                ]
+            },
+            {
+                "talle": "3",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 4
+                    }
+                ]
+            },
+            {
+                "talle": "4",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 4
+                    }
+                ]
+            },
+            {
+                "talle": "5",
+                "colores": [
+                    {
+                        "color": "Negro",
+                        "stock": 4
+                    }
+                ]
+            }
+            ],
+        "estado": "disponible"
+    }
+  ]
