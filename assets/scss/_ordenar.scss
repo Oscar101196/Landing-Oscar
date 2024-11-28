@@ -1,0 +1,22 @@
+main{
+    form{
+        padding: 1rem 1rem;
+        input{
+            border-radius: 0.8rem;
+            border-color: rgb(58, 42, 84);
+        }
+    }
+    select{
+        &:hover{
+            cursor: pointer;
+        }
+        border-radius: 0.5rem;
+        color: rgb(58, 42, 84);
+        border: 2px solid rgb(58, 42, 84);
+        option{
+            &:hover{
+                background-color: rgb(152, 116, 175);
+            }
+        }
+    }
+}

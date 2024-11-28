@@ -1,0 +1,9 @@
+.busqueda{
+    input{
+        border-radius: 1rem;
+        border-color: rgb(152, 116, 175);
+        &::placeholder{
+            color: rgb(152, 116, 175);
+        }
+    }
+}

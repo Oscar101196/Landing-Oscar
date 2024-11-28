@@ -55,30 +55,6 @@ function ordenarProductos(){
     cargarCatalogoCarrito(productosOrdenados);
 }
 
-// async function cargarCatalogoHome(){
-//     const response = await fetch("/productos.json");
-//     const productosCargados2 = await response.json();
-//     let listaProductosDiv = document.getElementById("productos-home")
-//     let primerosCuatro = productosCargados2.slice(0,4);
-//     listaProductosDiv.innerHTML = "";
-//     primerosCuatro.forEach(element => {
-//         listaProductosDiv.innerHTML += 
-//         `
-//         <figure class = "col">
-//             <div class="card h-100">
-//                 <img src="${element.imagenes[0]}" class="card-img-top" alt="...">
-//                 <div class="card-body">
-//                     <figcaption class="card-title">${element.nombre}</figcaption>
-//                     <p>$${element.precio}</p>
-//                     <p>10% de descuento con Transferencia bancaria</p>
-//                     <button onclick = "agregarCarrito(${element.id}, ${element.talle})">Comprar</button>
-//                 </div>
-//             </div>
-//         </figure>
-//         `  
-//     });
-// }
-
 async function agregarCarrito(id){
     let response = await fetch("/productos.json");
     let productos = await response.json();
@@ -98,16 +74,6 @@ async function agregarCarrito(id){
     actualizarCarrito();
 }
 
-
-
-// function actualizarCantidad(idProducto, cambio){
-//     let cantidadInput = document.getElementById(`cantidad-${idProducto}`);
-//     let cantidad = parseInt(cantidadInput.value);
-//     cantidad = Math.max(1,cambio+cantidad);
-//     cantidadInput.value = cantidad;
-//     console.log("entro a actualizarcantidad" + carrito);
-    
-// }
 
 function cambiarCantidad(index, cambio){
     carrito[index].cantidad = Math.max(1,carrito[index].cantidad + cambio);

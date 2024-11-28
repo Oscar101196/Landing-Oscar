@@ -16,13 +16,19 @@
             <div class="promo d-flex justify-content-center">
                 <p>3 cuotas sin interes bla bla bla</p>
             </div>
+            
             <!---------------------------------- Nav logo y usuario y carrito ---------------------------------------------->
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                   <div class="row w-100 align-items-center">
-                    <div class="col">a</div>
+                    <div class=" busqueda col">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                      </svg>
+                      <input type="text" placeholder="Buscar" >
+                    </div>
                     <div class="col">
-                      <a class="navbar-brand ms-auto" href="#"><img src="./assets/img/Logo.svg" alt=""></a>
+                      <a class="navbar-brand ms-auto" href="#"><img src="./assets/img/Logo.svg" alt=""></a> <!--LOGO-->
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -30,14 +36,16 @@
                     <div class="col-auto navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Ingresa/Registrate</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  class="bi bi-person-fill" viewBox="0 0 16 16">
+                                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                                </svg>
+                                <a  aria-current="page" href="#">Ingresa/Registrate</a>
                             </li>
                             <li class="nav-item">
-<!----------------------------------------------------------------- BOTON Carrito de compras ------------------------------->
-                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                                  <a href="./assets/pages/catalogo.html">Carrito</a>
-                                </button>
-  <!-----------------------------------------------------------------CIERRE BOTON Carrito de compras ------------------------------->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  class="bi bi-bag-heart" viewBox="0 0 16 16">
+                                  <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1M8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+                                </svg>
+                                <a href="./assets/pages/catalogo.html">Carrito</a>                                                       
                             </li>
                         </ul>
                     </div>
@@ -83,7 +91,7 @@
                 </div>
             </nav>
             <!------------------------------------CIERRA Barra navegadore de catalogo ------------------------------------->
-            <div class="contenedor row">
+            <div class="contenedor row mb-3">
               <div class="contenedor__texto col-6 text-center ">
                 <h2>Descrubre <br> nuestros <br> increibles <br> <span class="fw-bold">precios y variedades</span></h2>
                 <button>VER CONJUNTOS</button>
@@ -95,94 +103,25 @@
                 </div>
               </div>
             </div>
-            <!-- Inicio Carrusel -->
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="..." class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-              <!-- ------------------Inicia catalogo ------------------------------->
+              <!-- ------------------Inicia PROMOS ------------------------------->
               <div class="px-3">
-                <p>Categorias Destacadas</p> <!--Categorias -->
-                <div class="row row-cols-1 row-cols-md-4 g-4 pb-3">              
+                <div class="row row-cols-1 row-cols-md-3 g-3 pb-3">              
                   <div class="col">     <!--  Categoria 1-->
                       <div class="card h-100">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <img src="./assets/img/promo-1.jpeg.png" class="card-img-top" alt="...">
                       </div>
-                      <div class="card-footer">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
-                      </div>
-                    </div>
                   </div>
                   <div class="col">  <!--  Categoria 2-->
                     <div class="card h-100">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      </div>
-                      <div class="card-footer">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
-                      </div>
+                      <img src="./assets/img/promo-2.jpeg.png" class="card-img-top" alt="...">
                     </div>
                   </div>
                   <div class="col"> <!--  Categoria 3-->
                     <div class="card h-100">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                      </div>
-                      <div class="card-footer">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
-                      </div>
+                      <img src="./assets/img/promo-3.jpeg.png" class="card-img-top" alt="...">
                     </div>
                   </div>
-                  <div class="col"> <!--  Categoria 4-->
-                    <div class="card h-100">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">$</p>
-                      </div>
-                      <div class="card-footer">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                  <!----------------------------------Cierra catalogo--------------------------------------------------------------------------- -->
-                                  <!-- Productos random -->
-                <div id="productos-home" class="row row-cols-1 row-cols-md-4 g-4" > </div>
-                
-              <div>
-                <!--------------------------- Banner -------------------------------------------------->
-                <img src="..." class="img-fluid" alt="...">
-                <!---------------------------CIERRE Banner -------------------------------------------------->
+                <div>
               </div>
               <p>Seguinos en instagram</p>
         </main>
