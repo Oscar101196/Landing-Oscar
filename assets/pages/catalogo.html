@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- Vandor -->
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <!-- Mio -->
+        <link rel="stylesheet" href="../css/main.css">
+    </head>
+    <body>
+        
+        <header>
+            <!-- Publicidad superior -->
+            <div class="d-flex justify-content-center">
+                <p>3 cuotas sin interes bla bla bla</p>
+            </div>
+            <!---------------------------------- Nav logo y usuario y carrito ---------------------------------------------->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <div class="row w-100 align-items-center" style="background-color: red;">
+                    <div class="col" style="background-color: green;">a</div>
+                    <div class="col-auto" style="background-color: yellow;">
+                      <a class="navbar-brand ms-auto" href="../../index.html">Navbar</a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="col-auto navbar-collapse" style="background-color: blue;" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Ingresa/Registrate</a>
+                            </li>
+                            <li class="nav-item">
+<!----------------------------------------------------------------- BOTON Carrito de compras ------------------------------->
+                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                  Carrito
+                                </button>
+  <!-----------------------------------------------------------------CIERRE BOTON Carrito de compras ------------------------------->
+                            </li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+            </nav> 
+        </header>
+
+        <main>  
+            
+            <!-- Barra navegadore de catalogo -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">    
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item dropdown me-5">
+                        <a class="nav-link dropdown-toggle" href="./assets/pages/catalogo.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Tienda
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="./assets/pages/catalogo.html">Conjuntos</a></li>
+                          <li><a class="dropdown-item" href="#">Bombachas</a></li>
+                          <li><a class="dropdown-item" href="#">Corpiños</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item me-5">
+                        <a class="nav-link" href="#">Temporada</a>
+                      </li>
+                      <li class="nav-item dropdown me-5">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Marcas
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Kauri</a></li>
+                          <li><a class="dropdown-item" href="#">Channel</a></li>
+                          <li><a class="dropdown-item" href="#">Eagle</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item me-5">
+                        <a class="nav-link" href="#">Quienes somos</a>
+                      </li>                    
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+            <!------------------------------------CIERRA Barra navegadore de catalogo ------------------------------------->
+            <!-- Inicio Carrusel -->
+            <form action="">
+              <input type="search" placeholder="Buscar">
+              <button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                </svg>
+              </button>
+              <select name="" id="ordenarProductos">
+                <option value="default">Ordenar</option>
+                <option value="mayor-menor">Ordenar de mayor a menor</option>
+                <option value="menor-mayor">Ordenar de menor a mayor</option>
+                <option value="alfabetico">Ordenar alfabeticamente</option>
+              </select>
+            </form>
+              <!-- ------------------Inicia catalogo ------------------------------->
+            <div class="px-3">
+                <!----------------------------------Cierra catalogo--------------------------------------------------------------------------- -->
+                                <!-- Productos random -->
+              <div id="productos-carrito" class="row row-cols-1 row-cols-md-3 g-3" > </div>
+              
+            <div>
+              <!--------------------------- Banner -------------------------------------------------->
+              <img src="..." class="img-fluid" alt="...">
+              <!---------------------------CIERRE Banner -------------------------------------------------->
+            </div>
+            <p>Seguinos en instagram</p>
+        </main>
+        <footer>
+          <div class="row px-3">
+            <div class="col" style="background-color: red;">
+              <a href="#"><img src="#" alt=""></a>
+              <p>Direccion</p>
+              <p>Telefono:</p>
+              <p>Email:</p>
+            </div>
+            <div class="col" style="background-color: blue;" >
+              <img src="" alt="">
+              <p>Recibe nuestras ofertas</p>
+            </div>
+            <div class="col" style="background-color: green;">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8376161867545!2d-58.39439882510282!3d-34.60826747295267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac2fc7de445%3A0x8f8bb81986a172fc!2sNueva%20Escuela%20de%20Dise%C3%B1o%20y%20Comunicaci%C3%B3n!5e0!3m2!1ses-419!2sar!4v1730333325044!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <div class="row px-3">
+            <div class="col">
+              <p>Nosotros</p>
+              <p>
+                Somos una empresa dedicada al comercio electrónico de lencería que se especializa en futuras mamás y talles grandes. En LENCERIAMODA podés encontrar las marcas que más te gustan, las últimas tendencias y las novedades del mundo de la moda para mujer, hombre y niño.
+
+                ¡Comprá rápido, seguro y fácil en LENCERÍAMODA y adquirí los productos desde la comodidad de tu casa!
+              </p>
+            </div>
+            <div class="col">
+              <ul>
+                <li>Quienes somos</li>
+                <li>Como comprar</li>
+                <li>Preguntas frecuentes</li>
+                <li>Cambios y devoluciones</li>
+                <li>Envios</li>
+                <li>Contacto</li>
+              </ul>
+            </div>
+            <div class="col">
+              <p>Mi cuenta</p>
+              <p>Ingresas</p>
+              <p>Carrito</p>
+              
+            </div>
+            <div class="col">
+              <p>Seguinos</p>
+              <p>Logo logo logo</p>
+            </div>
+          </div>
+          <div>
+            <p class=" d-flex justify-content-center">Copyright©  Lencería Moda 2022. Todos los derechos reservados. Desarrollo: Oscar Peñaranda</p>
+          </div>
+          
+        </footer>
+        <!---------------------------------------Carrito oculto--------------------------------------->
+        <div class="offcanvas offcanvas-end" style="width: 37rem;" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">CARRITO DE COMPRAS</h5> <!--TITULO-->
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body" id="producto-carrito"></div>
+            <!-- FINALIZA PRODUCTOS -->
+          
+          <div id="montos"></div>   
+          <!-- FINALIZA ZONA DE MONTOS      -->
+        </div>
+        <!---------------------------------------CIERRA Carrito oculto--------------------------------------->
+
+
+        <!--VANDOR-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <!--MIO-->
+        <script src="../js/script.js" defer></script>
+        <!-- <script src="./assets/js/bootstrap.min.js"></script> -->
+    </body>
+</html>

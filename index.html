@@ -51,36 +51,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
               <div class="offcanvas-body" id="producto-carrito"> 
-                <div class="row"> <!--PRODUCTO 1-->
-                  <div class="col-2">
-                    <img src="./assets/img/corpinio-siena-verde-110.webp" class=" img-thumbnail img-fluid" style="width: 140px; height: auto;" alt="">
-                  </div>
-                  <div class="col-10">
-                    <div>
-                      <div class="d-flex justify-content-between">
-                        <p>Corpiño Siena Verde Menta (Corpiño con aro) (110)</p>
-                        <button>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-trash3" viewBox="0 0 16 16">
-                            <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5"/>
-                          </svg>
-                        </button>
-                      </div>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group me-2 w-25" role="group" aria-label="Second group">   <!--Botones + - -->
-                          <button type="button" id="btn--" class="btn btn-secondary">-</button>
-                          <p id="cantidad">1</p>
-                          <button type="button"  id="btn-+" class="btn btn-secondary">+</button>
-                        </div>
-                        <div>
-                          <p>$ <span id="precio-unidad">10</span>  U.</p>
-                        </div>
-                        <div class="text-end">
-                          <p>$ <span id="precio-total">10</span></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div> <!--FINALIZA PRODUCTO 1-->
+                <!-- PRODUCTOS DEL HOME -->
                 <div> <!--Parte ENVIO GRATIS-->
                   <p class="text-center">Estas a $21.000 de envio gratis</p>
                 </div><!--FINALIZA Parte ENVIO GRATIS-->
@@ -148,11 +119,11 @@
                   <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                       <li class="nav-item dropdown me-5">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="./assets/pages/catalogo.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Tienda
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Conjuntos</a></li>
+                          <li><a class="dropdown-item" href="./assets/pages/catalogo.html">Conjuntos</a></li>
                           <li><a class="dropdown-item" href="#">Bombachas</a></li>
                           <li><a class="dropdown-item" href="#">Corpiños</a></li>
                         </ul>
@@ -261,8 +232,8 @@
                 </div>
                   <!----------------------------------Cierra catalogo--------------------------------------------------------------------------- -->
                                   <!-- Productos random -->
-                <div id="productos" class="row row-cols-1 row-cols-md-4 g-4" > </div>
-              
+                <div id="productos-home" class="row row-cols-1 row-cols-md-4 g-4" > </div>
+                
               <div>
                 <!--------------------------- Banner -------------------------------------------------->
                 <img src="..." class="img-fluid" alt="...">
