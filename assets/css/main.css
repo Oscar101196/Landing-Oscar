@@ -1,3 +1,43 @@
+.contenedor {
+  background-color: rgb(252, 180, 224);
+}
+.contenedor__texto {
+  padding: 1rem 0;
+}
+.contenedor__texto h2 {
+  color: rgb(58, 42, 84);
+  font-size: 4rem;
+}
+.contenedor__texto button {
+  font-size: 4.2rem;
+  background-color: rgb(152, 116, 175);
+  border-radius: 2rem;
+  border: none;
+  color: white;
+  line-height: center;
+}
+.contenedor__banner {
+  align-items: center;
+  padding: 2rem 0rem;
+}
+.contenedor__banner img {
+  width: 400px;
+  height: 400px;
+  padding: 0;
+}
 
+.promo p {
+  text-align: center;
+  background-color: rgb(152, 116, 175);
+  width: 100%;
+  color: white;
+  font-weight: 600;
+}
+
+.navbar-nav.menu li a {
+  color: rgb(152, 116, 175);
+  font-weight: 500;
+  font-size: 1.5rem;
+}
 
 /*# sourceMappingURL=main.css.map */

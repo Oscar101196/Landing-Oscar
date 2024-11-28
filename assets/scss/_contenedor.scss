@@ -1,0 +1,29 @@
+.contenedor{
+    background-color: rgb(252, 180, 224);
+    &__texto{
+        padding: 1rem 0; 
+     
+        h2{
+            color: rgb(58, 42, 84);
+            font-size: 4rem;
+        }
+        button{
+            font-size: 4.2rem;
+            background-color: rgb(152, 116, 175);
+            border-radius: 2rem;
+            border: none;
+            color: white;
+            line-height: center;
+        }
+    }
+    &__banner{
+       
+        align-items: center;
+        padding: 2rem 0rem;
+        img{
+            width: 400px;
+            height: 400px;
+            padding: 0;
+        }
+    }
+}
