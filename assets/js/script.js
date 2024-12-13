@@ -55,31 +55,51 @@ function ordenarProductos(){
     cargarCatalogoCarrito(productosOrdenados);
 }
 
-async function agregarCarrito(id){
+async function agregarCarrito(id) {
     let response = await fetch("/productos.json");
     let productos = await response.json();
-    let cantidad = 1;
     let productoSeleccionado = productos.find(elemento => elemento.id === id);
+
+    if (!productoSeleccionado) {
+        alert("Producto no encontrado");
+        return;
+    }
+
     let productoExiste = carrito.find(p => p.id === id);
-    if(productoExiste){
-        productoExiste.cantidad++;
-    }
-    else{
-        let productoEnCarrito ={
-            ...productoSeleccionado,cantidad
+
+    if (productoExiste) {
+        // Verifica si hay suficiente stock
+        if (productoExiste.cantidad < productoSeleccionado.stock) {
+            productoExiste.cantidad++;
+            alert(`Agregaste una unidad más de ${productoSeleccionado.nombre}.`);
+        } else {
+            alert(`No hay más stock disponible para ${productoSeleccionado.nombre}.`);
         }
-        carrito.push(productoEnCarrito);
-        alert(`Agregaste ${productoSeleccionado.nombre} al carrito!`);
+    } else {
+        // Verifica si hay al menos 1 en stock antes de agregar
+        if (productoSeleccionado.stock > 0) {
+            let productoEnCarrito = {
+                ...productoSeleccionado,
+                cantidad: 1
+            };
+            carrito.push(productoEnCarrito);
+            alert(`Agregaste ${productoSeleccionado.nombre} al carrito!`);
+        } else {
+            alert(`No hay stock disponible para ${productoSeleccionado.nombre}.`);
+        }
     }
+
     actualizarCarrito();
 }
 
 
 function cambiarCantidad(index, cambio){
+    if((cambio > 0) && (carrito[index].cantidad >= carrito[index].stock) ){
+        alert(`No puedes agregar más de ${carrito[index].stock} unidades de ${carrito[index].nombre}.`);
+        return;
+    }
     carrito[index].cantidad = Math.max(1,carrito[index].cantidad + cambio);
     actualizarCarrito();
-    console.log(carrito);
-    
 }
 
 function eliminarDelCarrito(index){
